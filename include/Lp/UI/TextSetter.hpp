@@ -4,9 +4,11 @@
 #include <sead/ListNode.hpp>
 
 namespace Lp::UI {
+
 class TextSetter {
   sead::ListNode m_ListNode;
 };
+
 } // namespace Lp::UI
 
-#endif
+#endif // LP_UI_TEXTSETTER_HPP
