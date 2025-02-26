@@ -6,3 +6,6 @@ add_library(Lp
            "${PROJECT_SOURCE_DIR}/include/Lp/UI/TextSetter.hpp"
            "${PROJECT_SOURCE_DIR}/src/Lp/UI/TextSetter.cpp"
            )
+target_include_directories(Lp PUBLIC
+                          "${PROJECT_SOURCE_DIR}/include"
+                          )
