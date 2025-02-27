@@ -3,12 +3,16 @@
 
 #include <sead/ListNode.hpp>
 
-namespace Lp::UI {
+namespace Lp {
+
+namespace UI {
 
 class TextSetter {
   sead::ListNode m_ListNode;
 };
 
-} // namespace Lp::UI
+} // namespace UI
+
+} // namespace Lp
 
 #endif // LP_UI_TEXTSETTER_HPP
