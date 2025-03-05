@@ -8,7 +8,7 @@ namespace Lp {
 namespace UI {
 
 class TextSetter {
-  sead::ListNode m_ListNode;
+  sead::ListNode m_Node;
 };
 
 } // namespace UI
